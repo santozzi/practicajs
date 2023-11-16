@@ -1,0 +1,30 @@
+body{
+    background-color: #909090;
+
+
+
+}
+.negrita{
+    font-weight: bold;
+}
+
+.cursiva{
+    font-style: italic;
+}
+.botonActivo{
+    background-color: #4CAF50;
+    color: white;
+}
+.botonInactivo{
+    background-color: #555555;
+    color: white;
+}
+.lienzo{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    border:1px solid #00000025;
+    filter:drop-shadow(0px 0px 2px #00000050);
+    margin:20px;
+    padding:10px;
+}

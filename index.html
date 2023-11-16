@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavascriptDOM</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <form>
+        <input type="text" id="texto">
+        <input type="color" name="color" id="color">
+        <input 
+            type="number" 
+            name="size" 
+            id="fontSize" 
+            min="1"
+            max="100"
+            value="16">
+        <button id="negrita">N</button>
+        <button id="cursiva">K</button>
+        <select name="subrayado" id="subrayado">
+ <!--            font-style: unset;
+            font-style:italic;
+            font-style: initial;
+            font-style: inherit;
+            font-style: normal; -->
+            <option value="none">normal</option>
+         
+
+            <option value="underline">subrayado</option>
+            <option value="line-through">tachado</option>
+            <option value="overline">linea arriba</option>
+        </select>
+    </form>
+    <div class="lienzo">
+        <p id="salida">texto para probar</p>
+    </div>
+    
+
+
+    <script src="./js/logica.js"></script>
+</body>
+</html>
